@@ -1,0 +1,77 @@
+.header {
+    height: 80px;
+    background-color: black;
+}
+
+.header__title {
+    display: inline-block;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.header__report {
+    background-color: rgb(208, 231, 222);
+    height: 60px;
+    margin-bottom: 100px;
+}
+
+.header__report-text {
+    display: inline-block;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.upper {
+    margin-bottom: 50px;
+}
+
+.upper__form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #000;
+}
+
+.btn {
+    color: white;
+    background-color: black;
+}
+
+.item__title {
+    display: inline-block;
+}
+
+.lower__title {
+    font-size: 18px;
+    padding: 10px;
+    border-bottom: 1px solid #000;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+}
+
+.item__btn--update {
+    background-color: blue;
+}
+
+.item__btn--delete {
+    background-color: red;
+}
